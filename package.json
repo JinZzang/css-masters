@@ -1,0 +1,34 @@
+{
+  "name": "css-masters",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JinZzang/css-masters.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JinZzang/css-masters/issues"
+  },
+  "homepage": "https://github.com/JinZzang/css-masters#readme",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "postcss-preset-env": "^5.3.0"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      }
+    }
+  },
+  "devDependencies": {
+    "postcss-grid-kiss": "^2.1.0"
+  },
+  "postcss-grid-kiss": true
+}
